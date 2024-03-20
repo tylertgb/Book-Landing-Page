@@ -1,0 +1,111 @@
+@media only screen and (max-width:768px){
+    header .navbar-brand{
+        padding-left: 1rem;
+    }
+    header .row .col-md-5 .header-circle{
+    width: 20vmin;
+    bottom: 20%;
+    left: 70%;
+}
+    header .row .col-md-5 .header-circle img{
+        position: relative;
+        width: 30vmin;
+        top: 30px;
+    }
+    .section-one .row .col-md-6 .panel{
+        position: initial;
+        width: initial;
+        height: initial;
+    }
+    .section-two .cover{
+        background-position: -25vmin -10vmin;
+    }
+    .numbers .rect{
+        width: 10rem;
+        height: 8rem;
+        margin: 1rem;
+    }
+    .numbers .rect h1{
+        font-size: 2rem;
+    }
+    .numbers .rect p{
+        font-size: .9rem;
+        font-weight: 500;
+    }
+    .purchase .cards .d-flex{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+    .section-three{
+        height: inherit;
+        padding: 10vmin !important;
+    }
+    .section-three .platform .col-md-6{
+        display: grid;
+        place-items: center;
+        
+    }
+    .section-three .row h1{
+        padding: 6vmin 4vmin;
+    }
+    .section-three .desktop i{
+        font-size: 8vmin;
+    }
+    .section-four .carousel-item{
+        padding-left: 3rem;
+    }
+    .section-four .team{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .section-four .carousel-inner{
+        width: 24rem;
+    }
+    .section-five .row .col-md-6:first-child{
+        margin-bottom:10px;
+    }
+    footer{
+        padding: 14vmin 10vmin;
+    }
+    footer .newsletters, .follow-us{
+        margin-top: 10vmin;
+    }
+
+}
+@media only screen and(max-width: 425px){
+    footer .row .col-md-12{
+        margin-top: 8vmin;
+    }
+    .section-one .row .col-md-6 .pray .img-circle2{
+        width: 3rem;
+    }
+}
+@media only screen and(max-width: 320px){
+    .section-four .card{
+        width: 18rem;
+    }
+    .section-four .carousel-inner{
+        margin-left: -30vmin;
+    }
+    .section-one .row .col-md-6 .pray .img-circle2{
+        width: 2rem;
+    }
+    .purchase .cards .card{
+        width: 18rem;
+        margin: 2vmin;
+    }
+    .card .card-text p{
+        font-size: 5vmin;
+        padding: 2.5rem 3rem;
+    }
+    .card-body .pricing>h1{
+        font-size: 5vmin;
+        padding: 1em .5em;
+    }
+    .purchase .pricing .btn{
+        border-radius: 10px;
+        font-size: 2.5vmin;
+    }
+}
